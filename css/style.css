@@ -1,0 +1,104 @@
+/* Global Styles */
+
+html {
+    font-family: "Inter";
+    font-weight: 600;
+    background-color: #2c2c2c;
+    color: #fafafa;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+a:link {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+section {
+    width: 90vw;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+button {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #fafafa;
+    border: 3px solid #fafafa;
+    border-radius: 30px;
+}
+
+/* Nav Global */
+
+.topnav a {
+    text-transform: uppercase;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #fafafa;
+    border-radius: 50%;
+}
+
+.nav-icon-bar {
+    width: 10px;
+    height: 3px;
+    background-color: #fafafa;
+    border-radius: 50px;
+}
+
+.nav-icon-bar.middle {
+    width: 20px !important;
+}
+
+#top-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .topnav a:not(:last-child) {
+        display: none;
+    }
+
+    #topnav-button {
+        display: none;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .topnav a:last-child {
+        display: none;
+    }
+
+    .topnav a {
+        margin: 0px 20px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .primary-button {
+        font-size: 12px;
+    }
+
+}
