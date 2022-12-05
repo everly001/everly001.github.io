@@ -1,13 +1,16 @@
 /* Global Styles */
 
 html {
-    font-family: "Inter";
-    font-weight: 600;
     background-color: #2c2c2c;
     color: #fafafa;
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
@@ -114,7 +117,19 @@ button.small-icon {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-text {
+    margin-bottom: 30px;
 }
 
 /* Extra small devices (phones, 768px and down) */
@@ -128,6 +143,12 @@ button.small-icon {
     
     p {
         font-size: 14px;
+    }
+
+    /* About Section */
+
+    .owl-carousel div img {
+        height: 80px;
     }
 
 }
@@ -187,11 +208,25 @@ button.small-icon {
     }
 
     .header-text {
-        width: 70%;
+        width: 80%;
+    }
+
+    #about-text h1 {
+        font-size: 30px;
+    }
+
+    #about-text p {
+        font-size: 16px;
     }
 
     .header-image.mobile img {
         height: 60vh;
+    }
+
+    /* About Section */
+
+    .owl-carousel div img {
+        height: 80px;
     }
 
 }
@@ -270,4 +305,11 @@ button.small-icon {
     .header-image.mobile {
         display: none;
     }
+
+    /* About Section */
+
+    .carousel-wrapper {
+        width: 60%;
+    }
+
 }
