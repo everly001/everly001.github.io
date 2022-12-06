@@ -20,6 +20,11 @@ h1 {
     margin-bottom: 5px;
 }
 
+h1.centered {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 p {
     font-size: 16px;
     font-weight: 500;
@@ -117,8 +122,8 @@ button.small-icon {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* About */
@@ -130,6 +135,82 @@ button.small-icon {
 
 #about-text {
     margin-bottom: 30px;
+}
+
+/* Projects */
+
+#projects {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #5A9FD4;
+    height: 80vw;
+    width: 80vh;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#text-mob-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-links.desktop {
+    display: hidden;
+}
+
+.project-text h1 {
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.project-text h2 {
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.project-text p {
+    width: 90%;
+    margin-top: 0;
+}
+
+.small-icon:first-child {
+    margin-bottom: 5px;
+}
+
+.project-image {
+    display: flex;
+}
+
+.project-image img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
 }
 
 /* Extra small devices (phones, 768px and down) */
@@ -149,6 +230,11 @@ button.small-icon {
 
     .owl-carousel div img {
         height: 80px;
+    }
+
+    .project-image img {
+        height: auto;
+        width: 80vw;
     }
 
 }
@@ -188,6 +274,33 @@ button.small-icon {
 
     .header-image.mobile img {
         height: 50vh;
+    }
+
+    /* Project Section */
+
+    #projects {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .project-text h2 {
+        display: none;
+    }
+    
+    .project-text ul {
+        display: none;
+    }
+    
+    .project-text p:last-child {
+        display: none;
+    }
+
+    .project-links.mobile {
+        display: flex;
+    }
+
+    .project-links.desktop {
+        display: none;
     }
 }
 
@@ -229,6 +342,22 @@ button.small-icon {
         height: 80px;
     }
 
+    /* Projects Section */
+
+    .project {
+        padding: 30px;
+    }
+    
+    .project-text p {
+        font-size: 18px;
+    }
+
+    .project-image img {
+        height: auto;
+        width: 85vw;
+        margin-bottom: -20px;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -241,7 +370,7 @@ button.small-icon {
     }
 
     .topnav a {
-        margin: 0px 20px;
+        margin: 0px 10px;
         font-weight: 600;
         font-size: 12px;
     }
@@ -310,6 +439,40 @@ button.small-icon {
 
     .carousel-wrapper {
         width: 60%;
+    }
+
+    /* Project Section */
+
+    #projects {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .project-links.mobile {
+        display: none;
+    }
+
+    .project-links.desktop {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .project-text {
+        width: 35vw;
+    }
+
+    .project-image img {
+        height: auto;
+        width: 45vw;
+        margin-bottom: -120px;
     }
 
 }
