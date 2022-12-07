@@ -13,6 +13,12 @@ body {
     font-weight: 600;
 }
 
+section {
+    width: 85vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 h1 {
     font-size: 30px;
     font-weight: 700;
@@ -50,10 +56,6 @@ ul li {
 a:link {
     color: #fafafa;
     text-decoration: none;
-}
-
-section {
-    width: 90vw;
 }
 
 .logo h1 {
@@ -150,7 +152,6 @@ button.small-icon {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 100vh;
 }
 
 #about-text {
@@ -178,8 +179,7 @@ button.small-icon {
     display: flex;
     flex-direction: column;
     background-color: #5A9FD4;
-    height: 80vw;
-    width: 80vh;
+    height: 50vh;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -256,7 +256,6 @@ button.small-icon {
 /* Transferrable Skills */
 
 #transferrable-skills {
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,8 +278,11 @@ button.small-icon {
 
 /* Footer */
 
+#footer section {
+    margin-bottom: 20px !important;
+}
+
 #footer {
-    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,16 +330,9 @@ button.small-icon {
     .experience-instance {
         padding: 5%;
         height: 290px;
-        width: 290px;
-    }
-
-    /* Transferrable Skills */
-
-    #transferrable-skills {
-        height: 30vh !important;
+        width: auto;
     }
     
-
 }
 
 /* Medium devices (landscape tablets, max-width 992px and down) */
@@ -379,11 +374,6 @@ button.small-icon {
 
     /* Project Section */
 
-    #projects {
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-    }
-
     .project-text h2 {
         display: none;
     }
@@ -402,18 +392,6 @@ button.small-icon {
 
     .project-links.desktop {
         display: none;
-    }
-
-    /* Transferrable Skills */
-
-    #transferrable-skills {
-        height: 20vh;
-    }
-
-    /* footer */
-
-    #footer {
-        height: 15vh;
     }
 }
 
@@ -463,12 +441,6 @@ button.small-icon {
 
     .header-image.mobile img {
         height: 60vh;
-    }
-
-    /* About Section */
-
-    #about {
-        height: 40vh;
     }
 
     .owl-carousel div img {
@@ -575,11 +547,6 @@ button.small-icon {
     }
 
     /* Project Section */
-
-    #projects {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
 
     .project-links.mobile {
         display: none;
