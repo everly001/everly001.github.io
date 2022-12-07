@@ -162,6 +162,11 @@ button.small-icon {
     align-content: center;
 }
 
+#about-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 #about-text {
     margin-bottom: 30px;
 }
@@ -435,6 +440,16 @@ button.small-icon {
         width: 80%;
     }
 
+    .header-image.mobile img {
+        height: 60vh;
+    }
+
+    /* About Section */
+
+    #about-text {
+        align-self: center;
+    }
+
     #about-text h1 {
         font-size: 30px;
     }
@@ -443,12 +458,13 @@ button.small-icon {
         font-size: 16px;
     }
 
-    .header-image.mobile img {
-        height: 60vh;
+    #carousel-wrapper {
+        width: 70vw;
+        align-self: center;
     }
 
     .owl-carousel div img {
-        height: 80px;
+        height: 70px;
     }
 
     /* Projects Section */
@@ -546,8 +562,13 @@ button.small-icon {
 
     /* About Section */
 
-    .carousel-wrapper {
-        width: 60%;
+    #about-text {
+        width: 70vw;
+    }
+
+    #carousel-wrapper {
+        width: 60vw;
+        align-self: center;
     }
 
     /* Project Section */

@@ -16,7 +16,7 @@ $(document).ready(function(){
                 slideBy: 7,
             },
             1000:{
-                items: 9,
+                items: 7,
                 slideBy: 3,
             }
         }
