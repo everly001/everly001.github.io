@@ -244,6 +244,38 @@ button.small-icon {
     border-radius: 30px;
 }
 
+.experience-instance p {
+    margin-bottom: 5px;
+}
+
+.experience-instance ul {
+    padding-left: 10px;
+}
+
+/* Transferrable Skills */
+
+#transferrable-skills {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#transferrable-skills h1 {
+    margin-bottom: 10px;
+}
+
+#transferrable-skills ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* Extra small devices (phones, 768px and down) */
 @media screen and (max-width: 768px) {
 
@@ -276,6 +308,12 @@ button.small-icon {
 
     .experience-instance {
         padding: 5%;
+    }
+
+    /* Transferrable Skills */
+
+    #transferrable-skills {
+        height: 30vh;
     }
 
 }
