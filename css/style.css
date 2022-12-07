@@ -239,7 +239,8 @@ button.small-icon {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 4px solid #fafafa;
     border-radius: 30px;
 }
@@ -276,6 +277,16 @@ button.small-icon {
     list-style: none;
 }
 
+/* Footer */
+
+#footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Extra small devices (phones, 768px and down) */
 @media screen and (max-width: 768px) {
 
@@ -283,6 +294,14 @@ button.small-icon {
 
     h1 {
         font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
     }
     
     p {
@@ -308,13 +327,16 @@ button.small-icon {
 
     .experience-instance {
         padding: 5%;
+        height: 290px;
+        width: 290px;
     }
 
     /* Transferrable Skills */
 
     #transferrable-skills {
-        height: 30vh;
+        height: 30vh !important;
     }
+    
 
 }
 
@@ -381,12 +403,40 @@ button.small-icon {
     .project-links.desktop {
         display: none;
     }
+
+    /* Transferrable Skills */
+
+    #transferrable-skills {
+        height: 20vh;
+    }
+
+    /* footer */
+
+    #footer {
+        height: 15vh;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
     /* Global */
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
 
     .primary-button {
         font-size: 12px;
@@ -416,6 +466,10 @@ button.small-icon {
     }
 
     /* About Section */
+
+    #about {
+        height: 40vh;
+    }
 
     .owl-carousel div img {
         height: 80px;
