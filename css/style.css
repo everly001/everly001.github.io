@@ -501,7 +501,7 @@ button.small-icon {
     #header {
         display: flex;
         flex-direction: row;
-        height: 80vh;
+        height: 65vh;
     }
 
     .header-text-div {
