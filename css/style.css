@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fafafa60;
     margin: 0;
 }
@@ -415,10 +415,6 @@ button.small-icon {
 
     h2 {
         font-size: 25px;
-    }
-
-    h3 {
-        font-size: 20px;
     }
     
     p {
