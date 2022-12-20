@@ -75,6 +75,7 @@ a:visited {
 
 button {
     font-weight: 700;
+    font-size: 13px;
     text-transform: uppercase;
     padding: 8px 20px;
     background-color: transparent;
@@ -543,7 +544,7 @@ button.small-icon {
     .topnav a {
         margin: 0px 10px;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     /* Header Section */
