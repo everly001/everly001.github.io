@@ -519,10 +519,6 @@ button.small-icon {
     .project {
         padding: 30px;
     }
-    
-    .project-text p {
-        font-size: 18px;
-    }
 
     .project-image img {
         height: auto;
